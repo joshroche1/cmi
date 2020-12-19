@@ -9,7 +9,9 @@ Components:
 - Apache 2 HTTP server
 - PHP
 - jQuery / AppML
+
 ========================================
+
 Functions:
 - Add, Change, Delete VMs from management
   + use local running user SSH key (ssh-copy-id) for access
