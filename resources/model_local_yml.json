@@ -1,0 +1,15 @@
+{
+  "data" : {
+    "type" : "csvfile",
+	"filename" : "../info/local.yml.log",
+	"items" : [
+	  { "name" : "dtg", "index" : 1 }
+	  { "name" : "ansible_hostname", "index" : 2 }
+	  { "name" : "ansible_user", "index" : 3 }
+	  { "name" : "ansible_distribution", "index" : 4 }
+	  { "name" : "ansible_distribution_release", "index" : 5 }
+	  { "name" : "ansible_distribution_version", "index" : 6 }
+	  { "name" : "ansible_all_ipv4_addresses", "index" : 7 }
+	]
+  }
+}
