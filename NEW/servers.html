@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<head>
+  <title> CMI - Servers </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> 
+  <link rel="stylesheet" href="../resources/css/w3.css">
+  <script src="../resources/js/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a href="../index.html" class="w3-bar-item w3-button">
+      CMI
+    </a>
+    <a href="../dashboard.html" class="w3-bar-item w3-button">
+      Dashboard
+    </a>
+    <a href="../servers.html" class="w3-bar-item w3-button w3-blue-gray">
+      Servers
+    </a>
+    <a href="../cloud.html" class="w3-bar-item w3-button">
+      Cloud
+    </a>
+    <a href="../hypervisors.html" class="w3-bar-item w3-button">
+      Hypervisors
+    </a>
+    <a href="../settings.html" class="w3-bar-item w3-button">
+      Settings
+    </a>
+  </div>
+</div>
+
+<main><br><br>
+<div class = "w3-row w3-light-gray"> 
+  <div class = "w3-container w3-blue-gray w3-card" style = "margin:5px;padding:5px;">
+    <h2> Cloud Providers </h2>
+    <div class = "w3-container w3-light-gray" style = "margin:5px;">
+      <h3>Amazon Web Services</h3>
+	  <!-- Template for each server instance -->
+      <div class = "w3-col l3 m6 s6 w3-container w3-light-blue" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-blue" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>HOSTNAME</th><th>STATUS</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+	  <!-- -->
+      <div class = "w3-col l3 m6 s6 w3-container w3-green" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-pale-green" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>SVR 2</th><th>GOOD</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+	  <div class = "w3-col l3 m6 s6 w3-container w3-red" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-yellow" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>SVR 3</th><th>DOWN</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+      <div class = "w3-col l3 m6 s6 w3-container w3-light-blue" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-blue" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>SVR 4</th><th>INACTIVE</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+    <div class = "w3-container w3-white" style = "margin:5px;">
+      <h3>Google Cloud Platform</h3>
+	  <!-- Template for each server instance -->
+      <div class = "w3-col l3 m6 s6 w3-container w3-light-blue" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-blue" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>HOSTNAME</th><th>STATUS</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+	  <!-- -->
+      <div class = "w3-col l3 m6 s6 w3-container w3-green" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-pale-green" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>SVR 2</th><th>GOOD</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+	  <div class = "w3-col l3 m6 s6 w3-container w3-red" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-yellow" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>SVR 3</th><th>DOWN</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+      <div class = "w3-col l3 m6 s6 w3-container w3-light-blue" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-blue" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>SVR 4</th><th>INACTIVE</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+    <div class = "w3-container w3-white" style = "margin:5px;">
+      <h3>Azure</h3>
+	  <!-- Template for each server instance -->
+      <div class = "w3-col l3 m6 s6 w3-container w3-light-blue" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-blue" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>HOSTNAME</th><th>STATUS</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+	  <!-- -->
+      <div class = "w3-col l3 m6 s6 w3-container w3-green" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-pale-green" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>SVR 2</th><th>GOOD</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+	  <div class = "w3-col l3 m6 s6 w3-container w3-red" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-yellow" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>SVR 3</th><th>DOWN</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+      <div class = "w3-col l3 m6 s6 w3-container w3-light-blue" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-blue" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>SVR 4</th><th>INACTIVE</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+    <div class = "w3-container w3-white" style = "margin:5px;">
+      <h3>Oracle Cloud Infrastructure</h3>
+	  <!-- Template for each server instance -->
+      <div class = "w3-col l3 m6 s6 w3-container w3-light-blue" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-blue" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>HOSTNAME</th><th>STATUS</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+	  <!-- -->
+      <div class = "w3-col l3 m6 s6 w3-container w3-green" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-pale-green" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>SVR 2</th><th>GOOD</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+	  <div class = "w3-col l3 m6 s6 w3-container w3-red" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-yellow" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>SVR 3</th><th>DOWN</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+      <div class = "w3-col l3 m6 s6 w3-container w3-light-blue" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-blue" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>SVR 4</th><th>INACTIVE</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <div class = "w3-container w3-blue w3-card" style = "margin:5px;padding:5px;"> 
+    <h2> Hypervisors </h2>
+    <div class = "w3-container w3-white" style = "padding:5px;">
+      <h3>Hypervisor 1</h3>
+	  <!-- Template for each server instance -->
+      <div class = "w3-col l3 m6 s6 w3-container w3-light-blue" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-blue" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>HOSTNAME</th><th>STATUS</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+	  <!-- -->
+      <div class = "w3-col l3 m6 s6 w3-container w3-green" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-pale-green" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>SVR 2</th><th>GOOD</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+	  <div class = "w3-col l3 m6 s6 w3-container w3-red" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-yellow" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>SVR 3</th><th>DOWN</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+      <div class = "w3-col l3 m6 s6 w3-container w3-light-blue" style = "padding:5px;">
+        <div class = "w3-container w3-card w3-blue" style = "margin:5px;">
+          <table class = "w3-table w3-hoverable">
+            <tr><th>SVR 4</th><th>INACTIVE</th></tr>
+            <tr><td>Host</td><td>123.45.67.89</td></tr>
+            <tr><td>User</td><td>username</td></tr>
+            <tr><td>Distribution</td><td>DISTRIBUTION</td></tr>
+            <tr><td>Distribution Release</td><td>RELEASE</td></tr>
+            <tr><td>Distribution Version</td><td>VERSION</td></tr>
+          </table>
+          <div class = "w3-bar w3-black w3-card">
+            <button class = "w3-button w3-round">PING</button>
+            <button class = "w3-button w3-round">REBOOT</button>
+            <button class = "w3-button w3-round">STOP</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+
+</body>
+</html>
