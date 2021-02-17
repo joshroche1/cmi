@@ -3,6 +3,7 @@
 # from Ubuntu 20.04 / Debian 10
 apt-get update
 apt-get upgrade -y
+apt-get install apache2 php
 apt-get install ansible -y
 
 mkdir -p /var/www/html/resources/appml_models
