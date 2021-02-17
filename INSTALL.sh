@@ -8,6 +8,6 @@ apt-get install ansible -y
 mkdir -p /var/www/html/resources/appml_models
 mkdir -p /var/www/html/ansible/playbooks
 mkdir /var/www/html/ansible/logs
-cp *.php /var/www/html/
+cp *.html /var/www/html/
 cp -R resources/* /var/www/html/resources
 cp ansible/playbooks/test_local.yml /var/www/html/ansible/playbooks/test_local.yml
