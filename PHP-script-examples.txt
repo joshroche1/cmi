@@ -1,0 +1,16 @@
+<?php   # will output instance-id : publicip #
+$strcmd = "aws ec2 describe-instances --query 'Reservations[].Instances[].[InstanceId,PublicIpAddress]'";
+$output = null;
+$retval = null;
+$swtch = 0;
+exec($strcmd, $output, $retval);
+foreach ($output as $value) {
+  if ($swtch == 0) {
+    echo "$value : ";
+    $swtch = 1;
+  } elseif ($swtch == 1) {
+    echo "$value\n";
+    $swtch = 0;
+  }
+}
+?>
